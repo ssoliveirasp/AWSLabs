@@ -1,0 +1,15 @@
+Add: 
+  * Integration Response - "Mapping Templates" - "Application/Json"
+
+Code:
+
+
+#set($Integer = 1)
+#set($ID = $Integer.parseInt($input.params("ID")))
+#set($name = "foo" + $ID)
+#set($price = $ID * 1.5)
+{
+    "ID" : $ID,
+    "name" : "$name",
+    "price" : $price
+}
