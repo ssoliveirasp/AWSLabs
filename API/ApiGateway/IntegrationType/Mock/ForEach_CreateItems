@@ -1,0 +1,18 @@
+Add: 
+ - "Mapping Templates" - "Application/Json"
+
+
+Code:
+
+[
+#foreach($ID in [1, 2, 3])
+    #set($price = $ID * 1.5)
+    #set($name = "foo" + $ID)
+    {
+        "ID" : $ID,
+        "name" : "$name",
+        "price" : $price
+    } 
+    #if($foreach.hasNext),#end
+#end
+]
