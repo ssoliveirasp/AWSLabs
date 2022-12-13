@@ -8,3 +8,6 @@ Add:
   "ID": $input.params("ID")
 }
 
+ApiKey enable (Call bash)
+
+curl -H "x-api-key: YOUR_API_KEY" YOUR_API_HOST/prod/items/
