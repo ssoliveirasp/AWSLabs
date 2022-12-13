@@ -1,0 +1,6 @@
+{
+  "id": "Items",
+  "title": "Items",
+  "type": "array",
+  "items": {"$ref": "https://apigateway.amazonaws.com/restapis/YOUR_API_ID/models/Item"}
+}
