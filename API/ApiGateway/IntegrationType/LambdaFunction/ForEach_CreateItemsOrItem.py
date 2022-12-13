@@ -1,12 +1,3 @@
-Add: 
-  * Integration Response - Lambda Function "Mapping Templates" - "Application/Json"
-{
-  "ID": $input.params("ID")
-}
-
-
-Code: (Function)
-
 # static list of items
 items = [
   {"ID": 1, "name": "Pen", "price": 2.5},
