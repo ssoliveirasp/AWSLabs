@@ -1,0 +1,10 @@
+Stage Variables:
+ 
+ ItemsFunction:${stageVariables.lambdaAlias}
+
+Add: 
+  * Integration Response - Lambda Function "Mapping Templates" - "Application/Json"
+{
+  "ID": $input.params("ID")
+}
+
