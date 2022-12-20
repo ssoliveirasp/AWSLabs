@@ -1,0 +1,18 @@
+{
+	"Version": "2012-10-17",
+	"Id": "Policy1656355944518",
+	"Statement": [
+		{
+			"Sid": "Stmt1656355938580",
+			"Effect": "Deny",
+			"Principal": "*",
+			"Action": "s3:PutObject",
+			"Resource": "arn:aws:s3:::calabs-bucket/locked/*",
+			"Condition": {
+				"NotIpAddress": {
+					"aws:SourceIp": "1.2.3.4"
+				}
+			}
+		}
+	]
+}
