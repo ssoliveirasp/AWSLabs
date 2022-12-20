@@ -1,0 +1,18 @@
+{
+    "Version": "2012-10-17",
+    "Id": "Policy1671567206783",
+    "Statement": [
+        {
+            "Sid": "Stmt1671565599365",
+            "Effect": "Allow",
+            "Principal": "*",
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::cloudacademylabs-3-1nwr16wukmna6/*",
+            "Condition": {
+                "IpAddress": {
+                    "aws:SourceIp": "1.2.3.4"
+                }
+            }
+        }
+    ]
+}
