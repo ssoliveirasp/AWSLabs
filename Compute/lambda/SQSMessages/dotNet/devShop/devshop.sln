@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cadastrador", "cadastrador", "{6619DA59-F597-456D-A1BA-F1272DFF3BB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B2FD00F1-2D3D-4A95-88E8-2685FAACFDA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cadastrador", "cadastrador\src\cadastrador\cadastrador.csproj", "{96B845C5-7670-4D61-A985-05C94820505C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shared", "shared\shared.csproj", "{0950459A-8B52-4B22-8D59-B10123AE4FC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96B845C5-7670-4D61-A985-05C94820505C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B845C5-7670-4D61-A985-05C94820505C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B845C5-7670-4D61-A985-05C94820505C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B845C5-7670-4D61-A985-05C94820505C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0950459A-8B52-4B22-8D59-B10123AE4FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0950459A-8B52-4B22-8D59-B10123AE4FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0950459A-8B52-4B22-8D59-B10123AE4FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0950459A-8B52-4B22-8D59-B10123AE4FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B2FD00F1-2D3D-4A95-88E8-2685FAACFDA9} = {6619DA59-F597-456D-A1BA-F1272DFF3BB4}
+		{96B845C5-7670-4D61-A985-05C94820505C} = {B2FD00F1-2D3D-4A95-88E8-2685FAACFDA9}
+	EndGlobalSection
+EndGlobal
