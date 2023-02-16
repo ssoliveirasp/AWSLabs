@@ -1,3 +1,6 @@
+
+using Amazon.Lambda.AspNetCoreServer;
+
 namespace LambdaApi;
 
 /// <summary>
@@ -28,8 +31,10 @@ public class LambdaEntryPoint :
     /// <param name="builder"></param>
     protected override void Init(IWebHostBuilder builder)
     {
-        builder
-            .UseStartup<Startup>();
+        _ = builder
+            .UseContentRoot(Directory.GetCurrentDirectory())
+            .UseStartup<Startup>()
+            .UseLambdaServer();
     }
 
     /// <summary>

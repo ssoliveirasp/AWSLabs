@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1A09D67D-529B-4DA0-A3D6-FC683F0558A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambdaDynamo", "src\lambdaDynamo\lambdaDynamo.csproj", "{FCF08838-44BF-4353-BF59-5CACF4708FD1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C1B23673-8840-4129-9E06-B0D42CF7D658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambdaDynamo.Tests", "test\lambdaDynamo.Tests\lambdaDynamo.Tests.csproj", "{7B3C867D-0E4D-448B-BF49-62E3055368C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCF08838-44BF-4353-BF59-5CACF4708FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCF08838-44BF-4353-BF59-5CACF4708FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCF08838-44BF-4353-BF59-5CACF4708FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCF08838-44BF-4353-BF59-5CACF4708FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B3C867D-0E4D-448B-BF49-62E3055368C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3C867D-0E4D-448B-BF49-62E3055368C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3C867D-0E4D-448B-BF49-62E3055368C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3C867D-0E4D-448B-BF49-62E3055368C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FCF08838-44BF-4353-BF59-5CACF4708FD1} = {1A09D67D-529B-4DA0-A3D6-FC683F0558A3}
+		{7B3C867D-0E4D-448B-BF49-62E3055368C8} = {C1B23673-8840-4129-9E06-B0D42CF7D658}
+	EndGlobalSection
+EndGlobal
