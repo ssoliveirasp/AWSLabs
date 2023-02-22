@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 
-
 namespace lambdaApi.Domain.Interface.Infra.Database
 {
     public interface IDynamoDbBaseRepository<T>
