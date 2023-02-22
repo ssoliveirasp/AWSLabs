@@ -1,4 +1,4 @@
-﻿using lambdaApi.Domain;
+﻿using lambdaApi.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using System.Reflection;
 
