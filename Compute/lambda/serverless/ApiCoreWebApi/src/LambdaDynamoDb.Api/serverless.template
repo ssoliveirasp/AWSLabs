@@ -8,7 +8,7 @@
     "AspNetCoreFunction": {
       "Type": "AWS::Serverless::Function",
       "Properties": {
-        "Handler": "LambdaApi::LambdaApi.LambdaEntryPoint::FunctionHandlerAsync",
+        "Handler": "LambdaDynamoDb.Api::LambdaApi.LambdaEntryPoint::FunctionHandlerAsync",
         "Runtime": "dotnet6",
         "CodeUri": "",
         "MemorySize": 256,
@@ -38,9 +38,9 @@
   },
   "Outputs": {
     "ApiURL": {
-      "Description": "API endpoint URL for Prod environment",
+      "Description": "API endpoint URL for Dev environment",
       "Value": {
-        "Fn::Sub": "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Prod/"
+        "Fn::Sub": "https://${ServerlessRestApi}.execute-api.${AWS::Region}.amazonaws.com/Dev/"
       }
     }
   }

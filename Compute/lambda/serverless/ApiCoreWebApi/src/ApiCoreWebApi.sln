@@ -3,17 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaApi", "LambdaApiDynamoDB\LambdaApi.csproj", "{F02B8876-FAB9-4EC1-85B1-29BA4D5829C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaDynamoDb.Api", "LambdaDynamoDb.Api\LambdaDynamoDb.Api.csproj", "{F02B8876-FAB9-4EC1-85B1-29BA4D5829C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambdaApi.Domain", "LambdaApiDynamoDB.Domain\lambdaApi.Domain.csproj", "{5E7271E1-B8FB-4DA3-B23F-E057EDFEBF08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lambdaApi.Domain", "LambdaApiDynamoDB.Domain\lambdaApi.Domain.csproj", "{5E7271E1-B8FB-4DA3-B23F-E057EDFEBF08}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaApi.Infra.Data.DynamoDb", "LambdaApi.Infra.Data\LambdaApi.Infra.Data.DynamoDb.csproj", "{6FB8F31C-CCEE-4C00-BA31-BC84F7044228}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaApi.Tests", "test\LambdaApi.Tests\LambdaApi.Tests.csproj", "{9818B83A-0D8C-4F47-BEAC-651951131E0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74F489CC-AF98-4C8A-A95E-9E807DD17529}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F02B8876-FAB9-4EC1-85B1-29BA4D5829C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,22 @@ Global
 		{5E7271E1-B8FB-4DA3-B23F-E057EDFEBF08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E7271E1-B8FB-4DA3-B23F-E057EDFEBF08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E7271E1-B8FB-4DA3-B23F-E057EDFEBF08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FB8F31C-CCEE-4C00-BA31-BC84F7044228}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FB8F31C-CCEE-4C00-BA31-BC84F7044228}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FB8F31C-CCEE-4C00-BA31-BC84F7044228}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FB8F31C-CCEE-4C00-BA31-BC84F7044228}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9818B83A-0D8C-4F47-BEAC-651951131E0F} = {74F489CC-AF98-4C8A-A95E-9E807DD17529}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BA4EDC2-6759-4738-9FB3-BF302F7200E2}
 	EndGlobalSection
 EndGlobal

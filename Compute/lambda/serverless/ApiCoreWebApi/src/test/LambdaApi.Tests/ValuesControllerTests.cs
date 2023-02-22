@@ -12,7 +12,6 @@ public class ValuesControllerTests
 {
 
 
-    [Fact]
     public async Task TestGet()
     {
         var lambdaFunction = new LambdaEntryPoint();

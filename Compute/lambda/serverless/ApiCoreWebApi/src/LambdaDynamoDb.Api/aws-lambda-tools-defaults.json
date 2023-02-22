@@ -12,7 +12,10 @@
     "s3-prefix"     : "LambdaApi/",
     "template"      : "serverless.template",
     "template-parameters" : "",
+    "function-name"       : "LambdaApiDynamoDb",
     "function-runtime"    : "dotnet6",
-    "s3-bucket"           : "s3.lambda.dev",
-    "stack-name"          : "LambdaApiDynamoDb"
+    "function-memory-size" : 556,
+    "function-timeout"     : 60,
+    "s3-bucket"            : "s3.lambda.dev",
+    "stack-name"           : "StackLambdaApiDynamoDb"
 }
