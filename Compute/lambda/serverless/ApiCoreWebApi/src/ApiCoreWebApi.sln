@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaApi.Tests", "test\Lam
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{74F489CC-AF98-4C8A-A95E-9E807DD17529}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LambdaDynamoDb.Api.Extensions", "LambdaDynamoDb.Api.Extensions\LambdaDynamoDb.Api.Extensions.csproj", "{9A8E3F1C-78D2-446F-B16D-80BD0B382FC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lambdaApi.Application", "lambdaApi.Application\lambdaApi.Application.csproj", "{0E22D190-1B63-4AF6-BFB5-ADB9D023EBA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,14 @@ Global
 		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9818B83A-0D8C-4F47-BEAC-651951131E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A8E3F1C-78D2-446F-B16D-80BD0B382FC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A8E3F1C-78D2-446F-B16D-80BD0B382FC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A8E3F1C-78D2-446F-B16D-80BD0B382FC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A8E3F1C-78D2-446F-B16D-80BD0B382FC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E22D190-1B63-4AF6-BFB5-ADB9D023EBA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E22D190-1B63-4AF6-BFB5-ADB9D023EBA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E22D190-1B63-4AF6-BFB5-ADB9D023EBA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E22D190-1B63-4AF6-BFB5-ADB9D023EBA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

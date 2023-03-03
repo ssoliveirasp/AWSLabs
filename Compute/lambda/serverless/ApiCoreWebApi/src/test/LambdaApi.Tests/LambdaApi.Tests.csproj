@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
@@ -25,6 +25,6 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\LambdaDynamoDb.Api\LambdaDynamoDb.Api.csproj" />
+    <ProjectReference Include="..\..\LambdaApi.Infra.Data\LambdaApi.Infra.Data.DynamoDb.csproj" />
   </ItemGroup>
 </Project>

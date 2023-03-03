@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.OpenApi.Models;
+using LambdaApi.Infra.Data.DynamoDb;
 
 namespace LambdaApi;
 
@@ -16,6 +17,7 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
         services.AddControllers();
+        services.RegisterDynamoDb();
         services.AddSwaggerGen(c => c.SwaggerDoc("v1", new OpenApiInfo { Title = "AWS Serverless Asp.Net Core Web API", Version = "v1" }));
     }
 

@@ -8,6 +8,11 @@ namespace LambdaApi.Controllers;
 [ApiController]
 public class SetupDynamoDBController : ControllerBase
 {
+    public SetupDynamoDBController()
+    {
+
+    }
+
     [HttpGet("Online")]
     public ActionResult Online()
     {
@@ -15,8 +20,9 @@ public class SetupDynamoDBController : ControllerBase
     }
 
     // POST api/values
-    [HttpPost("Setup")]
-    public void SetupDB()
+    [HttpPost("Dynamodb/CreateTable")]
+    public void CreateTable()
     {
+
     }
 }

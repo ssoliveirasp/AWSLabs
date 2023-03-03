@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LambdaApiDynamoDB.Domain\lambdaApi.Domain.csproj" />
+    <ProjectReference Include="..\LambdaDynamoDb.Api.Extensions\LambdaDynamoDb.Api.Extensions.csproj" />
   </ItemGroup>
 	
 	<ItemGroup>
 		<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.2.12" />
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.0" />
 	</ItemGroup>
 </Project>
